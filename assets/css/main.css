@@ -1,0 +1,40 @@
+#ruler {
+	position: absolute;
+	visibility: hidden;
+	white-space: nowrap;
+	z-index: -100;
+}
+
+table {
+	border-left: 2px solid gray;
+	border-top: 2px solid gray;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
+
+td,
+th {
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	font-size: 13pt;
+	white-space: nowrap;
+	padding: 2px;
+	text-align: center;
+	font-weight: normal;
+}
+
+
+.fit span {
+	display: inline-block;
+	width: 100%;
+	transform-origin: 0% 50%;
+}
+
+.col1 {
+	width: 4%;
+}
+
+.col2 {
+	width: 26%;
+}
